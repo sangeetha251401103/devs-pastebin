@@ -6,8 +6,7 @@ function App() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [pastes, setPastes] = useState([]);
-
-  const API_URL = "http://localhost:5000/api/pastes";
+  const API_URL = "https://devs-pastebin-backend.onrender.com/api/pastes";
 
   const fetchPastes = async () => {
     try {
